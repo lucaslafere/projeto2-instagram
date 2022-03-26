@@ -352,7 +352,9 @@ settar um width fixo. */
 }
 
 /* Fim da sidebar */
-
+.footer-fixo {
+    display: none;
+}
 /* Início ports */
 
 @media (max-width: 935px) and (min-width: 614px) {
@@ -396,5 +398,39 @@ settar um width fixo. */
 }
 .posts {
     width: 100%;
+}
+.footer-fixo {
+    display: initial;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+
+    height: 54px;
+    width: 100% ;
+
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+
+    z-index: 1;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    height: 54px;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-icon {
+    display: flex;
+    align-items: center;
+    height: 54px;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-icon ion-icon:nth-child(5) {
+    margin-right: 19px;
+}
+.footer-icon ion-icon:nth-child(1) {
+    margin-left: 19px;
 }
 }
