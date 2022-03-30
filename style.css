@@ -389,6 +389,7 @@ settar um width fixo. */
     border: none;
     margin-bottom: 0px;
     background-color: #fafafa;
+    width: 100%;
 }
 .imagem-story {
     border-radius: 55px;
